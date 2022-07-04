@@ -1,0 +1,61 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.n-left :nth-child(1){
+    font-size: 25px;
+}
+
+.n-left :nth-child(2){
+    font-size: 40px;
+}
+
+.n-left :nth-child(3){
+    font-size: 40px;
+}
+
+
+.n-name {
+    color: #008284;
+    font-weight: 900;
+}
+
+.n-right {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight:400 ;
+}
+
+.n-list{
+    flex: 10;
+}
+
+.n-list ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    
+}
+
+.n-list ul li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.n-list ul li:hover{
+    cursor: pointer;
+    color: #02b04b;
+
+}
